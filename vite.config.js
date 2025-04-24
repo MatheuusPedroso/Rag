@@ -4,8 +4,8 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  // Adicione esta linha:
-  base: 'https://matheuuspedroso.github.io/Rag/, // Substitua pelo nome exato!
+  // Correção: Usar apenas o nome do repositório entre barras
+  base: '/Rag/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
