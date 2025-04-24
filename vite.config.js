@@ -5,7 +5,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   // Adicione esta linha:
-  base: '/<NOME_DO_SEU_REPOSITORIO_NO_GITHUB>/', // Substitua pelo nome exato!
+  base: 'https://matheuuspedroso.github.io/Rag/, // Substitua pelo nome exato!
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
